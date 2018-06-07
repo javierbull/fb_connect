@@ -1,10 +1,10 @@
 window.fbAsyncInit = function() {
     FB.init({
-        appId      : '118692592325613',
+        appId      : '387960565052949',
         cookie     : true,  // enable cookies to allow the server to access
             // the session
         xfbml      : true,  // parse social plugins on this page
-        version    : 'v2.12' // use graph api version 2.8
+        version    : 'v3.0' // use graph api version 2.8
     });
     FB.getLoginStatus(function(response) {
         statusChangeCallback(response);
